@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    color: black;
+    font-family: cursive;
+    line-height: 1.5;
+}
+
+header {
+	background: royalblue;
+	color: White;
+	margin: 0;
+	padding: 15px;
+}
+
+#jumbotron{
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: url("../blue-ocean.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+section{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div{
+	color: white;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+p {
+	justify-content: center;
+
+}
+
+header h1 {
+	margin: 0;
+	
+}
+
+nav ul {
+	margin: 0;
+	padding: 0 0 0 15px;
+	
+}
+
+nav ul li {
+	background: white;
+	color: royalblue;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+	margin: 0;
+
+}
+
+nav ul li a {
+	color: royalblue;
+}
+
+
+footer {
+	background: royalblue;
+	color: white;
+	list-style-type: none;
+	padding: 5px 250px;
+	margin: 0;
+}
